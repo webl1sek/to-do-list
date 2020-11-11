@@ -74,7 +74,7 @@ function addToStorage() {
 
 function clearStorage() {
     localStorage.setItem('itemsArr', '')
-    todoListArr = ''
+    todoListArr.length = 0
     todoList.innerHTML = ''
 }
 
